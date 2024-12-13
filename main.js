@@ -8,7 +8,7 @@ function getWeather(city) {
   var myHttp = new XMLHttpRequest();
   myHttp.open(
     "GET",
-    `http://api.weatherapi.com/v1/forecast.json?key=8c3f90441c2c488f919212256241212&q=${city}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=8c3f90441c2c488f919212256241212&q=${city}&days=3`
   );
   myHttp.send();
 
