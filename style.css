@@ -1,0 +1,221 @@
+/* ================ GLOBAL COLORS ================*/
+.bg-dark {
+  background: #1e202b !important;
+  border-color: #1e202b !important;
+}
+
+.lightBg {
+  background-color: #262936;
+  border-color: #262936;
+}
+
+.colorGrey {
+  color: #bfc1c8;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-40 {
+  font-size: 60px;
+}
+
+.lightBlue {
+  color: rgb(68 152 211);
+}
+
+/* ================ NAVBAR ================*/
+.logo {
+  width: 65px;
+  height: 40px;
+}
+
+.tagline {
+  font-size: 10px;
+}
+
+li a,
+.nav-item {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 5px 10px !important;
+}
+
+li a:hover {
+  color: #009ad8 !important;
+}
+
+.nav-link.active {
+  border: 2px solid #009ad8;
+  border-radius: 30px;
+  padding: 5px 15px;
+  color: #009ad8;
+}
+
+.nav-link:hover {
+  border: 2px solid #009ad8;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+
+.nav-link {
+  padding: 5px 15px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: #009ad8 0.3s ease, color 0.3s ease;
+  font-size: 15px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  border-radius: 5px;
+  background-color: white !important;
+}
+
+/* ================ BREADCRUMB IN CONTACTS PAGE ================*/
+
+.breadcrumb {
+  --bs-breadcrumb-margin-bottom: none !important;
+  font-size: 13px;
+}
+
+.breadcrumb-item.active {
+  color: white;
+}
+
+.breadcrumb-item a {
+  color: #bfc1c8;
+}
+
+.breadcrumb-item:hover a {
+  color: #bfc1c8 !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: grey;
+}
+
+/* ================ FIRST SECTION (HERO + SEARCH FIELD) ================*/
+
+.hero-img {
+  background-image: url(../Assignment/Images/banner.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  font-size: 14px;
+  border: none !important;
+}
+
+.form button {
+  width: 110px;
+  height: 45px;
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  background-color: rgb(68 152 211);
+  border-color: rgb(68 152 211);
+}
+
+.form button:hover {
+  background-color: rgb(68 152 211);
+  border-color: rgb(68 152 211);
+}
+
+.form button:active {
+  background-color: rgb(68 152 211) !important;
+  border-color: rgb(68 152 211) !important;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* ================ API FIELD ================*/
+
+.height350 {
+  height: 350px;
+}
+
+/* ================ FOOTER ================*/
+
+.height200 {
+  height: 200px;
+}
+
+.icons i {
+  width: 40px;
+  height: 40px;
+  color: rgb(68 152 211);
+  font-size: 20px;
+  margin: 0 5px;
+  border: 10px #1e202b solid;
+  border-radius: 100%;
+  background-color: rgb(39 41 53);
+  text-align: center;
+}
+
+/* ================ CONTACTS PAGE ================*/
+
+.contacts {
+  height: auto;
+  padding: 2rem;
+}
+
+.map {
+  height: 100%;
+  max-width: 100%;
+}
+
+.map-data {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  color: #fff;
+}
+
+.contact-form {
+  max-width: 100%;
+}
+
+.button {
+  background-color: rgb(68 152 211);
+  border-color: rgb(68 152 211);
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(68 152 211);
+  border-color: rgb(68 152 211);
+}
+
+.button:active {
+  background-color: rgb(68 152 211) !important;
+  border-color: rgb(68 152 211) !important;
+}
+
+/* ================ FORECAST TABLE ================*/
+
+.forecast .header {
+  background: rgba(0, 0, 0, 0.1);
+}
