@@ -110,7 +110,7 @@ li a:hover {
 /* ================ FIRST SECTION (HERO + SEARCH FIELD) ================*/
 
 .hero-img {
-  background-image: url(../Assignment/Images/banner.png);
+  background-image: url("../Assignment/Images/banner.png");
   height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
